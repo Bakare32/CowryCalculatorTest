@@ -26,6 +26,17 @@
 		C17895722A6015E20095679B /* MontserratAlternates-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C178956E2A6015E20095679B /* MontserratAlternates-Medium.ttf */; };
 		C17895742A6015EA0095679B /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = C17895732A6015EA0095679B /* OFL.txt */; };
 		C17895772A6016FF0095679B /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17895762A6016FF0095679B /* Color.xcassets */; };
+		C178957A2A6017780095679B /* NSMutableAttributedString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17895792A6017780095679B /* NSMutableAttributedString+Extensions.swift */; };
+		C178957C2A60178A0095679B /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C178957B2A60178A0095679B /* UIViewController+Extension.swift */; };
+		C178957E2A6017CB0095679B /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C178957D2A6017CB0095679B /* CustomTabView.swift */; };
+		C17895802A6017DC0095679B /* GraphViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C178957F2A6017DC0095679B /* GraphViewLayout.swift */; };
+		C17895822A6017F80095679B /* CustomTabItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17895812A6017F80095679B /* CustomTabItemCell.swift */; };
+		C17895842A6018110095679B /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17895832A6018110095679B /* CountryView.swift */; };
+		C17895862A60181E0095679B /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17895852A60181E0095679B /* PickerView.swift */; };
+		C17895882A6018290095679B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17895872A6018290095679B /* CustomTextField.swift */; };
+		C178958A2A60183E0095679B /* LineMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17895892A60183E0095679B /* LineMarkerView.swift */; };
+		C178958C2A6018550095679B /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = C178958B2A6018540095679B /* Font.swift */; };
+		C178958E2A6018BD0095679B /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C178958D2A6018BD0095679B /* CustomColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +80,17 @@
 		C178956E2A6015E20095679B /* MontserratAlternates-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Medium.ttf"; sourceTree = "<group>"; };
 		C17895732A6015EA0095679B /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		C17895762A6016FF0095679B /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		C17895792A6017780095679B /* NSMutableAttributedString+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extensions.swift"; sourceTree = "<group>"; };
+		C178957B2A60178A0095679B /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		C178957D2A6017CB0095679B /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		C178957F2A6017DC0095679B /* GraphViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewLayout.swift; sourceTree = "<group>"; };
+		C17895812A6017F80095679B /* CustomTabItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabItemCell.swift; sourceTree = "<group>"; };
+		C17895832A6018110095679B /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		C17895852A60181E0095679B /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		C17895872A6018290095679B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		C17895892A60183E0095679B /* LineMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineMarkerView.swift; sourceTree = "<group>"; };
+		C178958B2A6018540095679B /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		C178958D2A6018BD0095679B /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +184,7 @@
 		C178955E2A60122A0095679B /* App */ = {
 			isa = PBXGroup;
 			children = (
+				C17895782A6017630095679B /* Extension */,
 				C17895622A6012460095679B /* ViewModel */,
 				C17895612A60123E0095679B /* Model */,
 				C17895602A6012370095679B /* Network */,
@@ -203,6 +226,15 @@
 		C17895632A60124E0095679B /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				C178957D2A6017CB0095679B /* CustomTabView.swift */,
+				C178957F2A6017DC0095679B /* GraphViewLayout.swift */,
+				C17895812A6017F80095679B /* CustomTabItemCell.swift */,
+				C17895832A6018110095679B /* CountryView.swift */,
+				C17895852A60181E0095679B /* PickerView.swift */,
+				C17895872A6018290095679B /* CustomTextField.swift */,
+				C17895892A60183E0095679B /* LineMarkerView.swift */,
+				C178958B2A6018540095679B /* Font.swift */,
+				C178958D2A6018BD0095679B /* CustomColor.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -243,6 +275,15 @@
 				C17895762A6016FF0095679B /* Color.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		C17895782A6017630095679B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C17895792A6017780095679B /* NSMutableAttributedString+Extensions.swift */,
+				C178957B2A60178A0095679B /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,13 +423,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C178957C2A60178A0095679B /* UIViewController+Extension.swift in Sources */,
 				C178955D2A6011EC0095679B /* AppCordinator.swift in Sources */,
+				C178958E2A6018BD0095679B /* CustomColor.swift in Sources */,
 				C17895682A6013690095679B /* CalculatorLayout.swift in Sources */,
+				C178957A2A6017780095679B /* NSMutableAttributedString+Extensions.swift in Sources */,
+				C178958A2A60183E0095679B /* LineMarkerView.swift in Sources */,
 				C178955B2A6011E10095679B /* Cordinator.swift in Sources */,
 				C178952E2A6011BB0095679B /* ViewController.swift in Sources */,
 				C178952A2A6011BB0095679B /* AppDelegate.swift in Sources */,
+				C17895802A6017DC0095679B /* GraphViewLayout.swift in Sources */,
+				C178957E2A6017CB0095679B /* CustomTabView.swift in Sources */,
 				C17895662A6013090095679B /* CalculatorViewController.swift in Sources */,
 				C178952C2A6011BB0095679B /* SceneDelegate.swift in Sources */,
+				C178958C2A6018550095679B /* Font.swift in Sources */,
+				C17895822A6017F80095679B /* CustomTabItemCell.swift in Sources */,
+				C17895862A60181E0095679B /* PickerView.swift in Sources */,
+				C17895842A6018110095679B /* CountryView.swift in Sources */,
+				C17895882A6018290095679B /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
