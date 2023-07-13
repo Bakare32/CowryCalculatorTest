@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.7.0)
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - IQKeyboardManagerSwift (6.5.11)
+  - Realm (10.38.0):
+    - Realm/Headers (= 10.38.0)
+  - Realm/Headers (10.38.0)
+  - RealmSwift (10.38.0):
+    - Realm (= 10.38.0)
+  - SwiftAlgorithms (1.0.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - Charts
+  - IQKeyboardManagerSwift
+  - RealmSwift
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - IQKeyboardManagerSwift
+    - Realm
+    - RealmSwift
+    - SwiftAlgorithms
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: ad60cc5d76abe294f672f51f5aaa4a6ef164ede3
+  Charts: ce0768268078eee0336f122c3c4ca248e4e204c5
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  Realm: 5902885dd1d5e71b0b020830caab937ecdf5bf07
+  RealmSwift: 0fc037d6c32c7c4fc9362892380f380114ecdcf0
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 5393d42d71674004bb237102928a02d7e37019d7
+
+COCOAPODS: 1.12.0
