@@ -16,6 +16,8 @@
 		C17895412A6011BD0095679B /* CowryCalculatorTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17895402A6011BD0095679B /* CowryCalculatorTestTests.swift */; };
 		C178954B2A6011BD0095679B /* CowryCalculatorTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C178954A2A6011BD0095679B /* CowryCalculatorTestUITests.swift */; };
 		C178954D2A6011BD0095679B /* CowryCalculatorTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C178954C2A6011BD0095679B /* CowryCalculatorTestUITestsLaunchTests.swift */; };
+		C178955B2A6011E10095679B /* Cordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C178955A2A6011E10095679B /* Cordinator.swift */; };
+		C178955D2A6011EC0095679B /* AppCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C178955C2A6011EC0095679B /* AppCordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C17895462A6011BD0095679B /* CowryCalculatorTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CowryCalculatorTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C178954A2A6011BD0095679B /* CowryCalculatorTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowryCalculatorTestUITests.swift; sourceTree = "<group>"; };
 		C178954C2A6011BD0095679B /* CowryCalculatorTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowryCalculatorTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C178955A2A6011E10095679B /* Cordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cordinator.swift; sourceTree = "<group>"; };
+		C178955C2A6011EC0095679B /* AppCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		C17895282A6011BB0095679B /* CowryCalculatorTest */ = {
 			isa = PBXGroup;
 			children = (
+				C17895592A6011C40095679B /* Cordinator */,
 				C17895292A6011BB0095679B /* AppDelegate.swift */,
 				C178952B2A6011BB0095679B /* SceneDelegate.swift */,
 				C178952D2A6011BB0095679B /* ViewController.swift */,
@@ -125,6 +130,15 @@
 				C178954C2A6011BD0095679B /* CowryCalculatorTestUITestsLaunchTests.swift */,
 			);
 			path = CowryCalculatorTestUITests;
+			sourceTree = "<group>";
+		};
+		C17895592A6011C40095679B /* Cordinator */ = {
+			isa = PBXGroup;
+			children = (
+				C178955A2A6011E10095679B /* Cordinator.swift */,
+				C178955C2A6011EC0095679B /* AppCordinator.swift */,
+			);
+			path = Cordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C178955D2A6011EC0095679B /* AppCordinator.swift in Sources */,
+				C178955B2A6011E10095679B /* Cordinator.swift in Sources */,
 				C178952E2A6011BB0095679B /* ViewController.swift in Sources */,
 				C178952A2A6011BB0095679B /* AppDelegate.swift in Sources */,
 				C178952C2A6011BB0095679B /* SceneDelegate.swift in Sources */,
