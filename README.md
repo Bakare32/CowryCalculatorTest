@@ -3,7 +3,9 @@
 Clone the repository
 
 $ git clone https://github.com/Bakare32/CowryCalculatorTest.git
+
 $ cd CowryCalculatorTest
+
 $ pod install
 
 
