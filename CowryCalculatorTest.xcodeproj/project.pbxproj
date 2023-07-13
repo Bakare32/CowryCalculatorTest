@@ -18,6 +18,13 @@
 		C178954D2A6011BD0095679B /* CowryCalculatorTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C178954C2A6011BD0095679B /* CowryCalculatorTestUITestsLaunchTests.swift */; };
 		C178955B2A6011E10095679B /* Cordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C178955A2A6011E10095679B /* Cordinator.swift */; };
 		C178955D2A6011EC0095679B /* AppCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C178955C2A6011EC0095679B /* AppCordinator.swift */; };
+		C17895662A6013090095679B /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17895652A6013090095679B /* CalculatorViewController.swift */; };
+		C17895682A6013690095679B /* CalculatorLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17895672A6013690095679B /* CalculatorLayout.swift */; };
+		C178956F2A6015E20095679B /* MontserratAlternates-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C178956B2A6015E20095679B /* MontserratAlternates-Regular.ttf */; };
+		C17895702A6015E20095679B /* MontserratAlternates-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C178956C2A6015E20095679B /* MontserratAlternates-Bold.ttf */; };
+		C17895712A6015E20095679B /* MontserratAlternates-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C178956D2A6015E20095679B /* MontserratAlternates-SemiBold.ttf */; };
+		C17895722A6015E20095679B /* MontserratAlternates-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C178956E2A6015E20095679B /* MontserratAlternates-Medium.ttf */; };
+		C17895742A6015EA0095679B /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = C17895732A6015EA0095679B /* OFL.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,13 @@
 		C178954C2A6011BD0095679B /* CowryCalculatorTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowryCalculatorTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C178955A2A6011E10095679B /* Cordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cordinator.swift; sourceTree = "<group>"; };
 		C178955C2A6011EC0095679B /* AppCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCordinator.swift; sourceTree = "<group>"; };
+		C17895652A6013090095679B /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		C17895672A6013690095679B /* CalculatorLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLayout.swift; sourceTree = "<group>"; };
+		C178956B2A6015E20095679B /* MontserratAlternates-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Regular.ttf"; sourceTree = "<group>"; };
+		C178956C2A6015E20095679B /* MontserratAlternates-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Bold.ttf"; sourceTree = "<group>"; };
+		C178956D2A6015E20095679B /* MontserratAlternates-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-SemiBold.ttf"; sourceTree = "<group>"; };
+		C178956E2A6015E20095679B /* MontserratAlternates-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Medium.ttf"; sourceTree = "<group>"; };
+		C17895732A6015EA0095679B /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +117,7 @@
 		C17895282A6011BB0095679B /* CowryCalculatorTest */ = {
 			isa = PBXGroup;
 			children = (
+				C17895692A6015BC0095679B /* font */,
 				C178955E2A60122A0095679B /* App */,
 				C17895592A6011C40095679B /* Cordinator */,
 				C17895292A6011BB0095679B /* AppDelegate.swift */,
@@ -193,8 +208,30 @@
 		C17895642A6012570095679B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C17895652A6013090095679B /* CalculatorViewController.swift */,
+				C17895672A6013690095679B /* CalculatorLayout.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C17895692A6015BC0095679B /* font */ = {
+			isa = PBXGroup;
+			children = (
+				C178956A2A6015CF0095679B /* Montserrat_Alternates */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		C178956A2A6015CF0095679B /* Montserrat_Alternates */ = {
+			isa = PBXGroup;
+			children = (
+				C178956C2A6015E20095679B /* MontserratAlternates-Bold.ttf */,
+				C178956E2A6015E20095679B /* MontserratAlternates-Medium.ttf */,
+				C178956B2A6015E20095679B /* MontserratAlternates-Regular.ttf */,
+				C17895732A6015EA0095679B /* OFL.txt */,
+				C178956D2A6015E20095679B /* MontserratAlternates-SemiBold.ttf */,
+			);
+			path = Montserrat_Alternates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,7 +340,12 @@
 			files = (
 				C17895362A6011BD0095679B /* LaunchScreen.storyboard in Resources */,
 				C17895332A6011BD0095679B /* Assets.xcassets in Resources */,
+				C178956F2A6015E20095679B /* MontserratAlternates-Regular.ttf in Resources */,
+				C17895712A6015E20095679B /* MontserratAlternates-SemiBold.ttf in Resources */,
 				C17895312A6011BB0095679B /* Main.storyboard in Resources */,
+				C17895702A6015E20095679B /* MontserratAlternates-Bold.ttf in Resources */,
+				C17895742A6015EA0095679B /* OFL.txt in Resources */,
+				C17895722A6015E20095679B /* MontserratAlternates-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,9 +371,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C178955D2A6011EC0095679B /* AppCordinator.swift in Sources */,
+				C17895682A6013690095679B /* CalculatorLayout.swift in Sources */,
 				C178955B2A6011E10095679B /* Cordinator.swift in Sources */,
 				C178952E2A6011BB0095679B /* ViewController.swift in Sources */,
 				C178952A2A6011BB0095679B /* AppDelegate.swift in Sources */,
+				C17895662A6013090095679B /* CalculatorViewController.swift in Sources */,
 				C178952C2A6011BB0095679B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
