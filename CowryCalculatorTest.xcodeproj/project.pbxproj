@@ -103,6 +103,7 @@
 		C17895282A6011BB0095679B /* CowryCalculatorTest */ = {
 			isa = PBXGroup;
 			children = (
+				C178955E2A60122A0095679B /* App */,
 				C17895592A6011C40095679B /* Cordinator */,
 				C17895292A6011BB0095679B /* AppDelegate.swift */,
 				C178952B2A6011BB0095679B /* SceneDelegate.swift */,
@@ -139,6 +140,61 @@
 				C178955C2A6011EC0095679B /* AppCordinator.swift */,
 			);
 			path = Cordinator;
+			sourceTree = "<group>";
+		};
+		C178955E2A60122A0095679B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C17895622A6012460095679B /* ViewModel */,
+				C17895612A60123E0095679B /* Model */,
+				C17895602A6012370095679B /* Network */,
+				C178955F2A60122F0095679B /* Presentation */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C178955F2A60122F0095679B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C17895642A6012570095679B /* View */,
+				C17895632A60124E0095679B /* CustomView */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		C17895602A6012370095679B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C17895612A60123E0095679B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C17895622A6012460095679B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C17895632A60124E0095679B /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		C17895642A6012570095679B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
