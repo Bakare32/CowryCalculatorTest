@@ -44,6 +44,9 @@
 		C17895922A6019230095679B /* ApiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17895912A6019230095679B /* ApiConfig.swift */; };
 		C17895942A60193F0095679B /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17895932A60193F0095679B /* NetworkClient.swift */; };
 		C17895962A6019600095679B /* ConverterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17895952A6019600095679B /* ConverterService.swift */; };
+		C17895982A601A1D0095679B /* RateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17895972A601A1C0095679B /* RateModel.swift */; };
+		C178959A2A601A360095679B /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17895992A601A360095679B /* CalculatorViewModel.swift */; };
+		C178959C2A601A5A0095679B /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C178959B2A601A5A0095679B /* DateHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +109,9 @@
 		C17895912A6019230095679B /* ApiConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConfig.swift; sourceTree = "<group>"; };
 		C17895932A60193F0095679B /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		C17895952A6019600095679B /* ConverterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterService.swift; sourceTree = "<group>"; };
+		C17895972A601A1C0095679B /* RateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateModel.swift; sourceTree = "<group>"; };
+		C17895992A601A360095679B /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		C178959B2A601A5A0095679B /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 		CFDBEE97F51A1133F2322882 /* Pods-CowryCalculatorTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CowryCalculatorTestTests.release.xcconfig"; path = "Target Support Files/Pods-CowryCalculatorTestTests/Pods-CowryCalculatorTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		CFF06639E98C5A5044E27F68 /* Pods-CowryCalculatorTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CowryCalculatorTestTests.debug.xcconfig"; path = "Target Support Files/Pods-CowryCalculatorTestTests/Pods-CowryCalculatorTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E6C64DA6E0ACE9E9D64C6ED6 /* Pods-CowryCalculatorTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CowryCalculatorTest.release.xcconfig"; path = "Target Support Files/Pods-CowryCalculatorTest/Pods-CowryCalculatorTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -161,7 +167,6 @@
 				CFF06639E98C5A5044E27F68 /* Pods-CowryCalculatorTestTests.debug.xcconfig */,
 				CFDBEE97F51A1133F2322882 /* Pods-CowryCalculatorTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -265,6 +270,7 @@
 		C17895612A60123E0095679B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C17895972A601A1C0095679B /* RateModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -272,6 +278,7 @@
 		C17895622A6012460095679B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				C17895992A601A360095679B /* CalculatorViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -335,6 +342,7 @@
 			children = (
 				C17895792A6017780095679B /* NSMutableAttributedString+Extensions.swift */,
 				C178957B2A60178A0095679B /* UIViewController+Extension.swift */,
+				C178959B2A601A5A0095679B /* DateHelper.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -584,6 +592,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C178959C2A601A5A0095679B /* DateHelper.swift in Sources */,
 				C17895902A6019040095679B /* HttpError.swift in Sources */,
 				C178957C2A60178A0095679B /* UIViewController+Extension.swift in Sources */,
 				C178955D2A6011EC0095679B /* AppCordinator.swift in Sources */,
@@ -591,8 +600,10 @@
 				C17895682A6013690095679B /* CalculatorLayout.swift in Sources */,
 				C178957A2A6017780095679B /* NSMutableAttributedString+Extensions.swift in Sources */,
 				C178958A2A60183E0095679B /* LineMarkerView.swift in Sources */,
+				C17895982A601A1D0095679B /* RateModel.swift in Sources */,
 				C178955B2A6011E10095679B /* Cordinator.swift in Sources */,
 				C17895962A6019600095679B /* ConverterService.swift in Sources */,
+				C178959A2A601A360095679B /* CalculatorViewModel.swift in Sources */,
 				C178952E2A6011BB0095679B /* ViewController.swift in Sources */,
 				C178952A2A6011BB0095679B /* AppDelegate.swift in Sources */,
 				C17895922A6019230095679B /* ApiConfig.swift in Sources */,
